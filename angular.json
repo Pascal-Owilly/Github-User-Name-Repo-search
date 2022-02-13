@@ -20,7 +20,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/GitSearch",
+                        "outputPath": "dist/Github-User-Name-Repo-search",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -128,5 +128,5 @@
             }
         }
     },
-    "defaultProject": "GitSearch"
+    "defaultProject": "Github-User-Name-Repo-search"
 }
