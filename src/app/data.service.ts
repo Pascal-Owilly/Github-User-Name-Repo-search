@@ -10,7 +10,6 @@ export class DataService {
   apiKey:string = environment.gitApiKey
 
   getGitHubUsers(searchQuery:string):Observable<any>{
-    
 
     return this.http.get<any>(`https://api.github.com/users/${searchQuery}?=${this.apiKey}`
     )
