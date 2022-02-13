@@ -1,15 +1,23 @@
 # GitHub User Search Application
 ---
 ## Project Description
-Github User Search application is a simple website that allows one search for  a github user based on their username and display their details together with
-the repository created by that user.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+This is a website which allows users to input usernames/ repos and get the results.
 
-## Author Information
-[Victoria Okumu](https://github.com/vokumu)
+#  Technologies Used 
+       *Angular 
+       *HTML
+       *CSS
+       *Markdown
+       *TypeScript
+       *Git
+       
+
+
+## Author
+* * Pascal Owilly
 
 # Setup Instructions  
-To start using this project use the following:
+
 ## Development server
 Run ng serve -o or ng serve --open and this will open in a browser at port 4200 by default but can also be assigned another pport if localhost:4200 is being used.
 
@@ -31,11 +39,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 # View Site
 [View site](https://vokumu.github.io/GitSearch/)
 
-#  Technologies Used 
-        *HTML
-        *TYPESCRIPT
-        *JAVASCRIPT
-        *CSS
+
 
 # Contact Information
 - Email <victoriawasonga@gmail.com>
