@@ -9,6 +9,7 @@ export class UserDirective {
     this.elem.nativeElement.style.backgroundColor = "rgb(33,37,41)"
     this.elem.nativeElement.style.color = "white";
     this.elem.nativeElement.style.padding = "20px";
+    this.elem.nativeElement.style.margin = "20px";
    
 
 
