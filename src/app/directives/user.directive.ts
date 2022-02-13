@@ -10,7 +10,7 @@ export class UserDirective {
     this.elem.nativeElement.style.color = "white";
     this.elem.nativeElement.style.padding = "20px";
     this.elem.nativeElement.style.margin = "20px";
-   
+    this.elem.nativeElement.style.textAlign = "center";
 
 
    }
