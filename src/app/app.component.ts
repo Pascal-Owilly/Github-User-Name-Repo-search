@@ -8,10 +8,10 @@ import { User } from './user';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'GitSearch';
+  title = 'Guthub User Search';
   gitUser:any
-  gitHubRepos:any 
-  userName!:string 
+  gitHubRepos:any
+  userName!:string
 
   constructor(private dataService:DataService){}
   findUser(user:User){
@@ -20,13 +20,13 @@ export class AppComponent {
 
     this.dataService.getGitHubUsers(this.userName).subscribe(data => {this.gitUser = data
       console.log(data)})
-    
-    
+
+
       this.dataService.getGitHubRepos(this.userName).subscribe(data => {
         this.gitHubRepos = data
         console.log(data)
       })
-    
+
 }
 
 }

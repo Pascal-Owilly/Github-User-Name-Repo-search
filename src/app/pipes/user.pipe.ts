@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class UserPipe implements PipeTransform {
   transform(value: any, ...args: any[]) {
-    throw new Error('Hello');
+    throw new Error('Hello, Please input a name');
   }
 
 
